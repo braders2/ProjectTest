@@ -17,6 +17,7 @@ public class Main {
                 from("file:data").to("ftp://kaczkaplywasobie.ugu.pl:testowy123@kaczkaplywasobie.ugu.pl:21");
             }
         });*/
+
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory("tcp://127.0.0.1:61616");
 // Note we can explicit name the component
         camelContext.addComponent("test-jms", JmsComponent.jmsComponentAutoAcknowledge(connectionFactory));
