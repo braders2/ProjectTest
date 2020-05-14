@@ -11,6 +11,7 @@ public class Main {
 
     public static void main(String[] args) throws Exception {
         CamelContext camelContext = new DefaultCamelContext();
+        
 /*        camelContext.addRoutes(new RouteBuilder() {
             @Override
             public void configure() throws Exception {
