@@ -14,6 +14,7 @@ public class Main {
         
 /*        camelContext.addRoutes(new RouteBuilder() {
             @Override
+            
             public void configure() throws Exception {
                 from("file:data").to("ftp://kaczkaplywasobie.ugu.pl:testowy123@kaczkaplywasobie.ugu.pl:21");
             }
